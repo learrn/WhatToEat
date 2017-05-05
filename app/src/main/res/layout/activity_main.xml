@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:gravity="center"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/whatEatToday"
-        android:textSize="@dimen/textSize"/>
+        android:gravity="center">
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whatEatToday"
+            android:textSize="@dimen/textSize"/>
+        <TextView
+            android:paddingLeft="@dimen/buttonTop"
+            android:id="@+id/mEat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eatWhat"
+            android:textSize="@dimen/whatSize"/>
+    </LinearLayout>
+
     <Button
+        android:id="@+id/mButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/buttonTop"

@@ -2,4 +2,5 @@
 <resources>
     <dimen name="buttonTop">10dp</dimen>
     <dimen name="textSize">20sp</dimen>
+    <dimen name="whatSize">30sp</dimen>
 </resources>
