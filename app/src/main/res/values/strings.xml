@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhatToEat</string>
+    <string name="whatEatToday">What are we eating today?</string>
+    <string name="button_start">start</string>
+</resources>
